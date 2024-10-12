@@ -20,4 +20,4 @@ Bu repo içindeki ödev dosyalarını kendi bilgisayarınızda çalıştırmak i
 
 1. Repoyu klonlayın:
    ```bash
-   git clone https://github.com/erkan-polat/ders2.git
+   git clone https://github.com/erkan-polat/Prompt-Engineering.git
