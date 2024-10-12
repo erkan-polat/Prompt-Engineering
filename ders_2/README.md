@@ -4,13 +4,14 @@
 
 Projede kullanılan veri seti "Admission_Predict.csv" adlı dosyadır. Bu veri seti, öğrencilerin akademik performansına dair bilgileri ve kabul şanslarını içermektedir. Veri seti şu sütunlardan oluşmaktadır:
 
-1-GRE Puanları (340 üzerinden)
-2-TOEFL Puanları (120 üzerinden)
-3-Üniversite Derecesi (5 üzerinden)
-4-Niyet Mektubu ve Referans Mektubu Gücü (5 üzerinden)
-5-Lisans Not Ortalaması (GPA) (10 üzerinden)
-6-Araştırma Deneyimi (0 veya 1)
-7-Kabul Şansı (0 ile 1 arasında)
+1. **GRE Puanları** (340 üzerinden)
+2. **TOEFL Puanları** (120 üzerinden)
+3. **Üniversite Derecesi** (5 üzerinden)
+4. **Niyet Mektubu ve Referans Mektubu Gücü** (5 üzerinden)
+5. **Lisans Not Ortalaması (GPA)** (10 üzerinden)
+6. **Araştırma Deneyimi** (0 veya 1)
+7. **Kabul Şansı** (0 ile 1 arasında)
+
 
 Data Linki : https://www.kaggle.com/datasets/mohansacharya/graduate-admissions/code
 
