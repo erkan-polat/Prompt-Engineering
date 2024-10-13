@@ -1,0 +1,50 @@
+Görüntü 1:
+
+Tespit edilen nesne: yok
+Atlanan nesne kulaklık
+
+Görüntü 2:
+
+Tespit edilen nesne: Laptop (0.95 güven skoru)
+Atlanan nesne yok.
+
+Görüntü 3:
+
+Tespit edilen nesne: Klavye (0.78 güven skoru), Mouse (0.95 güven skoru)
+Atlanan nesne yok.
+
+Görüntü 4:
+
+Tespit edilen nesne: Klavye (0.91 güven skoru)
+Atlanan nesne cüzdan.
+
+Görüntü 5:
+
+Tespit edilen nesne: Cep Telefonu (0.89 güven skoru)
+Atlanan nesne yok.
+
+Görüntü 6:
+
+Tespit edilen nesne: Gözlük (model tarafından kitap olarak tespit edilmemiş olabilir)
+Atlanan nesne: Gözlük yanlış tespit edilmiş olabilir.
+
+Görüntü 7:
+
+Tespit edilen nesne: Kitap (farklı kitaplar %0.57 ile %0.88 arasında güven skoru ile tespit edilmiş)
+Atlanan nesne yok.
+
+Görüntü 8:
+
+Tespit edilen nesne: İnsan (0.57 güven skoru), Cell Phone (0.86 güven skoru)
+Atlanan nesne telefon
+
+Görüntü 9:
+
+Tespit edilen nesne: İnsan (0.69 güven skoru), Cell Phone (0.89 güven skoru), Mouse (0.45 güven skoru)
+Atlanan nesne telefon
+yanlış tespit Mouse
+
+Görüntü 10:
+
+Tespit edilen nesne: Kitap (0.83 güven skoru)
+Atlanan nesne telefon

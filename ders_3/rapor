@@ -1,50 +1,65 @@
-Görüntü 1:
+Rapor: Nesne Tespit Sonuçları Analizi
+Model Bilgisi
+Kullanılan Model: YOLOv8m (Medium model)
+Modelin Versiyonu: YOLOv8m.pt
+Açıklama: Bu raporda, YOLOv8 modelinin orta büyüklükteki versiyonu kullanılarak 10 adet görüntü üzerinde nesne tespiti yapılmıştır. 
+Tespit edilen nesnelerin başarı oranları (güven skorları) ve modelin atladığı ya da yanlış tespit ettiği nesneler analiz edilmiştir.
 
-Tespit edilen nesne: yok
-Atlanan nesne kulaklık
+Nesne Tespiti Sonuçları
+Görüntü 1
+Tespit Edilen Nesne: Yok
+Atlanan Nesne: Kulaklık
+Açıklama: Bu görüntüde model kulaklığı tespit edememiştir. Kulaklığın tespiti başarısız olmuştur.
+Görüntü 2
+Tespit Edilen Nesne: Laptop (0.95 güven skoru)
+Atlanan Nesne: Yok
+Açıklama: Model, laptopu yüksek bir doğrulukla (%95) doğru şekilde tespit etmiştir. Başka bir nesne atlanmamıştır.
+Görüntü 3
+Tespit Edilen Nesneler: Klavye (0.78 güven skoru), Mouse (0.95 güven skoru)
+Atlanan Nesne: Yok
+Açıklama: Klavye ve mouse model tarafından doğru şekilde tespit edilmiştir.
+Görüntü 4
+Tespit Edilen Nesne: Klavye (0.91 güven skoru)
+Atlanan Nesne: Cüzdan
+Açıklama: Model klavyeyi tespit etmiştir, ancak cüzdanı atlamıştır.
+Görüntü 5
+Tespit Edilen Nesne: Cep Telefonu (0.89 güven skoru)
+Atlanan Nesne: Yok
+Açıklama: Cep telefonu doğru bir şekilde tespit edilmiştir.
+Görüntü 6
+Tespit Edilen Nesne: Gözlük (yanlış tespit - kitap olarak algılanmış olabilir)
+Atlanan Nesne: Gözlük (yanlış tespit)
+Açıklama: Model gözlüğü doğru sınıflandıramamış, muhtemelen kitap olarak algılamıştır. Yanlış tespit olarak gözlük atlanmıştır.
+Görüntü 7
+Tespit Edilen Nesneler: Kitaplar (%0.57 ile %0.88 arasında güven skorları ile)
+Atlanan Nesne: Yok
+Açıklama: Kitaplar model tarafından doğru şekilde tespit edilmiştir.
+Görüntü 8
+Tespit Edilen Nesneler: İnsan (0.57 güven skoru), Cep Telefonu (0.86 güven skoru)
+Atlanan Nesne: Telefon (bir adet telefon atlanmış)
+Açıklama: Cep telefonlarından biri doğru tespit edilmiş, ancak başka bir telefon model tarafından atlanmıştır.
+Görüntü 9
+Tespit Edilen Nesneler: İnsan (0.69 güven skoru), Cep Telefonu (0.89 güven skoru), Mouse (0.45 güven skoru)
+Atlanan Nesne: Telefon
+Yanlış Tespit: Mouse (0.45 güven skoru)
+Açıklama: Mouse, düşük güven skoru ile tespit edilmiştir, ancak model bu tespitte yanlış olabilir. Ek olarak, bir telefon tespit edilmemiştir.
+Görüntü 10
+Tespit Edilen Nesne: Kitap (0.83 güven skoru)
+Atlanan Nesne: Telefon
+Açıklama: Model kitap tespitinde başarılı olmuştur, ancak telefondan biri atlanmıştır.
+Genel Değerlendirme ve Yorumlar
+Başarı Oranları: Model genel olarak nesne tespitlerinde yüksek bir başarı göstermiştir. 
+Tespit edilen nesnelerde güven skoru ortalama %83-95 arasında değişmektedir. 
+Bu da modelin çoğunlukla yüksek doğrulukta sonuçlar verdiğini göstermektedir.
 
-Görüntü 2:
+Yanlış Tespitler: Yanlış tespitler, özellikle Görüntü 6'da gözlük yerine kitap tespiti ve Görüntü 9'da mouse tespiti olarak öne çıkmıştır. 
+Bu hatalar modelin küçük nesnelerde veya benzer şekillerdeki nesnelerde sınıflandırmada zorlandığını göstermektedir.
 
-Tespit edilen nesne: Laptop (0.95 güven skoru)
-Atlanan nesne yok.
+Atlanan Nesneler: Model bazı nesneleri atlamıştır. 
+Özellikle Görüntü 1'de kulaklık, Görüntü 4'te cüzdan ve Görüntü 8, 9 ve 10'da telefonlar model tarafından algılanmamıştır. Bu da nesnenin pozisyonu, boyutu veya aydınlatma gibi faktörlerin model performansını etkileyebileceğini göstermektedir.
 
-Görüntü 3:
-
-Tespit edilen nesne: Klavye (0.78 güven skoru), Mouse (0.95 güven skoru)
-Atlanan nesne yok.
-
-Görüntü 4:
-
-Tespit edilen nesne: Klavye (0.91 güven skoru)
-Atlanan nesne cüzdan.
-
-Görüntü 5:
-
-Tespit edilen nesne: Cep Telefonu (0.89 güven skoru)
-Atlanan nesne yok.
-
-Görüntü 6:
-
-Tespit edilen nesne: Gözlük (model tarafından kitap olarak tespit edilmemiş olabilir)
-Atlanan nesne: Gözlük yanlış tespit edilmiş olabilir.
-
-Görüntü 7:
-
-Tespit edilen nesne: Kitap (farklı kitaplar %0.57 ile %0.88 arasında güven skoru ile tespit edilmiş)
-Atlanan nesne yok.
-
-Görüntü 8:
-
-Tespit edilen nesne: İnsan (0.57 güven skoru), Cell Phone (0.86 güven skoru)
-Atlanan nesne telefon
-
-Görüntü 9:
-
-Tespit edilen nesne: İnsan (0.69 güven skoru), Cell Phone (0.89 güven skoru), Mouse (0.45 güven skoru)
-Atlanan nesne telefon
-yanlış tespit Mouse
-
-Görüntü 10:
-
-Tespit edilen nesne: Kitap (0.83 güven skoru)
-Atlanan nesne telefon
+Çıktılara Yönelik Kişisel Yorumlar ve Analizler:
+Modelin genel performansı memnuniyet verici olup, %90'ın üzerinde doğruluk oranlarıyla çoğu nesneyi başarıyla tespit edebilmiştir. 
+Ancak bazı küçük nesneler (kulaklık, gözlük, cüzdan gibi) veya karmaşık sahnelerde birden fazla telefon bulunması gibi durumlar, modelin tespit yeteneklerini zorlayabilir. 
+Daha küçük nesnelerde başarının artırılması için modelin daha fazla küçük nesne içeren veri seti ile eğitilmesi gerekebilir. 
+Ayrıca, görseldeki arka plan karışıklıkları veya nesnelerin kısmen gizlenmiş olması da atlamalara yol açabilir.
