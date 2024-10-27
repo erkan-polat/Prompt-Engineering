@@ -20,7 +20,7 @@ Bu proje, YOLOv8 modeli kullanılarak 10 farklı görüntüde nesne tespiti yapm
 ## Tahminler
 Model, çoğu nesnede yüksek doğruluk sağladı. Ancak bazı küçük nesneler atlandı ya da yanlış tespit edildi.
 
-![Tahmin](7.jpg)
+![Tahmin](3.jpg)
 
 ## Sonuçlar
 Model büyük nesnelerde başarılı olurken, küçük nesnelerde (kulaklık, cüzdan) eksik tespitler yaptı. Genel olarak model performansı %80 üzerindedir.
